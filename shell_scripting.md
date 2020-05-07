@@ -3,7 +3,7 @@
 create a simple .sh file
 
 ```
-**root@kali:~#vi try.sh**
+root@kali:~#vi try.sh
 
 #!/bin/bash/
 
