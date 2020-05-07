@@ -5,7 +5,7 @@ create a simple .sh file\
 ```
 **root@kali:~#vi try.sh**\
 
-#!/bin/bash/\
+#!/bin/bash/
 
 echo "1st Shell scripting"\
 
@@ -14,7 +14,7 @@ echo "1st Shell scripting"\
 hello world\
 ```
 ---
-**TIPS**\
+**TIPS**
 
 For executing a .sh file you cane use ./{file_name}\
 also\
@@ -50,7 +50,7 @@ var1 is greater than var2\
 
 ```
 
-#!/bin/bash\
+#!/bin/bash
 
 if (( $1 > $2 & $1 > $3 ))\
 then\
@@ -62,15 +62,15 @@ else\
 	echo "no condtion"\
 fi\
 
-**root@kali:~# ./ifelse.sh 12 23 12**
+root@kali:~# ./ifelse.sh 12 23 12
 any two or all three are same
-**root@kali:~# ./ifelse.sh 35 2 19**
+root@kali:~# ./ifelse.sh 35 2 19
 var1 is greatest
-**root@kali:~# ./ifelse.sh 5 14 12**
+root@kali:~# ./ifelse.sh 5 14 12
 no condtion
 
 ```
-######Switch Case\
+######Switch Case
 
 ```
 **root@kali:~#vi case.sh**\
