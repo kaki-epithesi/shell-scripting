@@ -21,17 +21,17 @@ also\
 root@kali:~#bash -f {file_name}\
 ---
 
-######Using conditional statements\
+**Using conditional statements**
 
 ```
-**root@kali:~#vi ifelse.sh**\
+root@kali:~#vi ifelse.sh
 
-#!/bin/bash\
+#!/bin/bash/
 
-var1=7\
-var2=12\
+var1=7
+var2=12
 
-if [ $var1 > $var2 ]\
+if [ $var1 > $var2 ]
 then\
         echo "var1 is greater than var2"\
 elif [ $var1 == $var2 ]\
