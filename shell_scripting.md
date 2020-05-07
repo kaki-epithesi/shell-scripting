@@ -133,7 +133,7 @@ root@kali:~# ./for.sh
  5
 
  ```
-**WHILE LOOP**\
+**WHILE LOOP**
 
 ---
 **NOTE**
@@ -147,24 +147,24 @@ root@kali:~# ./for.sh
 ---
 
 ```
-**root@kali:~#vi while.sh**\
+root@kali:~#vi while.sh
 
-#!/bin/bash\
+#!/bin/bash/
 
-i=0\
+i=0
 
-while [ $i -lt 5 ]\
-do\
-        echo " printing $i times "\
-        i=`expr $i + 1`\
-done\
+while [ $i -lt 5 ]
+do
+        echo " printing $i times "\\
+        i=`expr $i + 1`
+done
 
-**root@kali:~# chmod +x while.sh**\
-**root@kali:~# ./while.sh**\
- printing 0 times\
- printing 1 times\
- printing 2 times\
- printing 3 times\
- printing 4 times\
+root@kali:~# chmod +x while.sh
+root@kali:~# ./while.sh
+ printing 0 times
+ printing 1 times
+ printing 2 times
+ printing 3 times
+ printing 4 times
 
  ```
