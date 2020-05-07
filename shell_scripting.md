@@ -1,17 +1,17 @@
-#SIMPLE SHELL SCRIPTING\
+#SIMPLE SHELL SCRIPTING
 
-create a simple .sh file\
+create a simple .sh file
 
 ```
-**root@kali:~#vi try.sh**\
+**root@kali:~#vi try.sh**
 
 #!/bin/bash/
 
-echo "1st Shell scripting"\
+echo "1st Shell scripting"
 
-**root@kali:~# chmod +x try.sh**\
-**root@kali:~# ./try.sh**\
-hello world\
+root@kali:~# chmod +x try.sh
+root@kali:~# ./try.sh
+hello world
 ```
 ---
 **TIPS**
