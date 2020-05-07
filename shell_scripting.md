@@ -32,21 +32,21 @@ var1=7
 var2=12
 
 if [ $var1 > $var2 ]
-then\
-        echo "var1 is greater than var2"\
-elif [ $var1 == $var2 ]\
-then\
-        echo "var1 is equal to var2"\
-else\
-        echo "var2 is greater than var1"\
-fi\
+then
+        echo "var1 is greater than var2"
+elif [ $var1 == $var2 ]
+then
+        echo "var1 is equal to var2"
+else
+        echo "var2 is greater than var1"
+fi
 
-**root@kali:~# chmod +x ifelse.sh**\
-**root@kali:~# ./ifelse.sh**\
-var1 is greater than var2\
+root@kali:~# chmod +x ifelse.sh
+root@kali:~# ./ifelse.sh
+var1 is greater than var2
 
 ```
-######Using logical 'and' 'or' and dynamic variable\
+**Using logical 'and' 'or' and dynamic variable**
 
 ```
 
@@ -70,67 +70,67 @@ root@kali:~# ./ifelse.sh 5 14 12
 no condtion
 
 ```
-######Switch Case
+**Switch Case**
 
 ```
-**root@kali:~#vi case.sh**\
+root@kali:~#vi case.sh
 
 #!/bin/bash/
 
-case $1 in/
-        "if")/
-                echo "if condition"/
-        ;;/
-        "elif")/
-                echo "elif condition"/
-        ;;/
-        "else")/
-                echo "else condition"/
-        ;;/
-esac/
+case $1 in
+        "if")
+                echo "if condition"
+        ;;
+        "elif")
+                echo "elif condition"
+        ;;
+        "else")
+                echo "else condition"
+        ;;
+esac
 
-**root@kali:~# chmod +x case.sh**\
-**root@kali:~# ./case.sh if**\
-if condition\
-**root@kali:~# ./case.sh elif**\
-elif condition\
-**root@kali:~# ./case.sh else**\
-else condition/
-
-```
-
-######LOOP STRUCTURES\
-
-**FOR LOOP**\
+root@kali:~# chmod +x case.sh
+root@kali:~# ./case.sh if
+if condition
+root@kali:~# ./case.sh elif
+elif condition
+root@kali:~# ./case.sh else
+else condition
 
 ```
-**root@kali:~#vi for.sh**\
 
-#!/bin/bash\
+**LOOP STRUCTURES**
 
-for i in 1 2 3 4 5/
-do/
-        echo " $i times this statement executed "\
-done\
-\
-for (( i=0 ; i<=5 ; i++ ))\
-do\
-        echo " $i "\
-done\
+**FOR LOOP**
 
-**root@kali:~# chmod +x for.sh**\
-**root@kali:~# ./for.sh**\
- 1 times this statement executed\
- 2 times this statement executed\
- 3 times this statement executed\
- 4 times this statement executed\
- 5 times this statement executed\
- 0\
- 1\
- 2\
- 3\
- 4\
- 5\
+```
+root@kali:~#vi for.sh
+
+#!/bin/bash/
+
+for i in 1 2 3 4 5
+do
+        echo " $i times this statement executed "
+done
+
+for (( i=0 ; i<=5 ; i++ ))
+do
+        echo " $i "
+done
+
+*root@kali:~# chmod +x for.sh
+root@kali:~# ./for.sh
+ 1 times this statement executed
+ 2 times this statement executed
+ 3 times this statement executed
+ 4 times this statement executed
+ 5 times this statement executed
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
 
  ```
 **WHILE LOOP**\
